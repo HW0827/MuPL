@@ -8,6 +8,6 @@ Experimental data from both air-cooled and water-cooled heat exchanger configura
 3. Model Training 
 First, a purely data-driven baseline model is trained for performance comparison. Then, the main MuPL model is trained. A Monte Carlo ensemble approach is integrated to predict key microscale features—liquid volume fraction δV and non-condensable gas mass fraction φm—from simulation data, providing uncertainty estimates. 
 4. Core Outputs 
-The trained MuPL model is saved. Error metrics (RMSE, MAPE, R²) for both the data-driven and MuPL models are printed. Visualizations include predictions of microscale features and deviation plots comparing final model predictions against ground truth values. 
+The trained MuPL model is saved. Error metrics (RMSE, MAPE, R²) for both the data-driven and MuPL models are printed.
 5. Usage Running 
 the main() function executes the complete workflow. This framework can be flexibly adapted to other material-device-system combinations by modifying input features and the formulation of core physical constraints.
